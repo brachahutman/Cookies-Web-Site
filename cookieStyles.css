@@ -1,0 +1,140 @@
+/*css stylesheet*/
+.links a{
+	text-decoration:none;
+	color: darkcyan;
+	text-align: center;
+	border: .1em darkcyan solid;
+	padding: .1em .25em;
+}
+.links a:link{
+	color:black;
+}
+.links a:visited{
+	color:darkcyan;
+}
+.links a:hover{
+	color:gold;
+}
+.links a:active {
+	color:white;
+}
+
+body 
+{
+	font-size: 1.2em;
+	font-family: Arial, Helvetica, "sans-serif";
+	color:lightcoral;
+	background-color:lightcyan;
+	margin: 1.5em;
+}
+div 
+{
+	background-color: darkseagreen;
+	color: darkcyan;
+	padding: 1.5em;
+}
+h1 
+{
+	color: steelblue;
+	font-size:2em;
+	font-stretch:expanded;
+}
+h3
+{
+	border-bottom: 1em darkcyan;
+	text-decoration: underline;
+	padding: 0;
+	color: lightcoral;
+}
+hr {
+	border-bottom: .3em darkcyan solid;
+	clear: right;
+	color: none;
+	margin-right: 2em;
+}
+img 
+{
+	float: right;
+	width: 350px;
+	height: 350px;
+	margin-right: 2em;
+	margin-top: .5em;
+	margin-bottom: 3em;
+}
+input {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+input[type=submit] {
+  background-color: gold;
+  border: none;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+p 
+{
+	font-size: 1em;
+}
+select {
+  width: 50%;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 4px;
+}
+table {
+	width:100%;
+	border-collapse:collapse;
+}
+td
+{
+	border: 1px solid darkseagreen;
+	padding: .25em;
+	background: gold;
+}
+
+
+#navigation a:link{
+	color:black;
+}
+#navigation a:visited{
+	color:darkcyan;
+}
+#navigation a:hover{
+	color:gold;
+}
+#navigation a:active {
+	color:white;
+}
+#navigation a
+{
+	border: .1em darkcyan solid;
+	padding: .1em .25em;
+	text-decoration:none;
+}
+#picLink {
+	color: none;
+	border: 0;
+	border-color: inherit;
+	padding: 0;
+}
+#tableHead {
+	border:none;
+	font-weight: bold;
+	size:1.5em;
+}
+
+.techniques {
+	border: .2em gold dotted;
+	margin: 1em;
+}
+.recipestep{
+	font-size: 1.3em;
+	font-weight: bold;
+	border: .2em gold dotted;
+	width: 60%;
+	
+}
